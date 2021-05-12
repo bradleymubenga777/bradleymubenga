@@ -1,4 +1,16 @@
+//Branding Style Sheet
+@use "../scss/branding" as brand;
+
 .fillBtn{
-    background-color: $purple;
-    
+    background-color: brand.$violet;
+    padding: 0.77em;
+    border: none;
+    color: white;
+    font-weight: brand.$semi-bold;
+    transition: ease-in-out 0.25s;
+}
+
+.fillBtn:hover{
+    background-color: brand.$purple;
+    box-shadow: 1px 1px 1.5px brand.$ebony;
 }

@@ -1,9 +1,16 @@
+//Branding Styles
+@use "./branding.scss" as brand;
+
 //Navbar
 .navbarLinks{
     li{
         a{
             color: black;
-            font-weight: bolder;
+            font-weight: brand.$semi-bold;
         }
     }
+}
+
+.active{
+    //***Add the stripe line under the navLink. This will automatically work if you use React NavLink instead of <a />
 }

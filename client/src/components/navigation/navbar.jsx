@@ -4,34 +4,37 @@ import React from 'react';
 //Assets
 import logo from '../../assets/svg/bradley-mubenga-logo.svg';
 
+//React Components
+import FillButton from '../buttons/fill-btn';
+
 //SCSS
 import '../../scss/navbar.scss';
 
 //React Functional Component
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg fixed-top mx-4">
-        <a class="navbar-brand" href="#"><img src={logo} class="img-fluid" width="150"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg fixed-top mx-4">
+        <a className="navbar-brand" href="#"><img src={logo} className="img-fluid" width="150"/></a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto navbarLinks">
-                <li class="nav-item active activeLink mx-3">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ml-auto navbarLinks d-flex align-items-center">
+                <li className="nav-item active activeLink mx-3">
+                    <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">About</a>
+                <li className="nav-item mx-3">
+                    <a className="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Portfolio</a>
+                <li className="nav-item mx-3">
+                    <a className="nav-link" href="#">Portfolio</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Blog</a>
+                <li className="nav-item mx-3">
+                    <a className="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">BTN COMPONENT</a>
+                <li className="nav-item mx-3">
+                    <FillButton />
                 </li>
             </ul>
         </div>
