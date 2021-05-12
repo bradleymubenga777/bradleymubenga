@@ -11,6 +11,10 @@
     }
 }
 
+.navClass{
+    background-color: white;
+}
+
 .activeLink{
     //***Add the stripe line under the navLink. This will automatically work if you use React NavLink instead of <a />
     border-bottom: brand.$violet 0.25em solid;

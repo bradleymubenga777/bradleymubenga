@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../assets/svg/bradley-mubenga-logo.svg';
 
 //React Components
-import FillButton from '../buttons/fill-btn';
+import { FillButton } from '../buttons/buttons';
 
 //SCSS
 import '../../scss/navbar.scss';
@@ -14,8 +14,8 @@ import '../../scss/navbar.scss';
 //React Functional Component
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg fixed-top mx-4">
-        <a className="navbar-brand" href="/"><img src={logo} className="img-fluid" width="150"/></a>
+        <nav className="navbar navbar-expand-lg fixed-top navClass">
+        <a className="navbar-brand ml-5" href="/"><img src={logo} className="img-fluid" width="150"/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>

@@ -7,7 +7,7 @@ import './scss/branding.scss';
 
 //Components
 import NavBar from './components/navigation/navbar';
-import example from './components/example';
+import HomePage from './components/pages/home';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/about" component={example} />
+          <Route exact path="/" component={HomePage} />
         </Switch>
       </Router>
     </div>
