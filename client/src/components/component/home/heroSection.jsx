@@ -6,7 +6,6 @@ import '../../../scss/heroSection.scss';
 
 //Assets
 import backgroundVideo from '../../../assets/video/bradley-mubenga-web-developer-video.m4v';
-import downArrow from '../../../assets/svg/down-arrow.svg';
 
 //React Components
 import { WhiteBtn, BlackBtn } from '../../buttons/buttons';
