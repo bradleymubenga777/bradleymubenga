@@ -30,7 +30,7 @@ export default function needProof() {
                         <div className="d-flex align-items-center">
                             <img className="img-fluid roundImg" width="77px" src={lukeImage} />
                             <ul className="clientDetails">
-                                <li>Luke McGowan</li>
+                                <li>Josh Cooke</li>
                                 <li><strong>Executive</strong> - SPACE_ Events Venue</li>
                                 <li><a href="https://spaceevents.co.za" target="blank">www.spaceevents.co.za</a></li>
                             </ul>
