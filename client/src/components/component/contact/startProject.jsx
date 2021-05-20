@@ -53,9 +53,9 @@ export default function StartProject() {
                             <div className="row">
                                 <div className="col-12 d-flex justify-content-center align-items-center contactMethods">
                                     <ul>
-                                        <li><a href="tel:0678151282">067 815 1282</a></li>
-                                        <li><a href="mailto:brad@bradleymubenga.co.za">brad@bradleymubenga.co.za</a></li>
-                                        <li><a>Cape Town, South Africa</a></li>
+                                        <li className="lead"><a href="tel:0678151282"><i class="fas fa-phone"></i> 067 815 1282</a></li>
+                                        <li className="my-2 lead"><a href="mailto:brad@bradleymubenga.co.za"><i class="fas fa-envelope-open-text"></i>     brad@bradleymubenga.co.za</a></li>
+                                        <li className="lead"><a><i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</a></li>
                                     </ul>
                                 </div>
                             </div>

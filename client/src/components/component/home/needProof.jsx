@@ -16,7 +16,7 @@ export default function needProof() {
             <div className="container d-flex justify-content-center pb-4">
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center headerText py-3">
-                        <h1>Need Proof?</h1>
+                        <h1>Need Proof ?</h1>
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
