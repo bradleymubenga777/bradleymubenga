@@ -2,22 +2,23 @@
 import React from 'react';
 
 //SCSS
+import '../../../scss/startProject.scss';
 
 //Components
+import { FormSubmitButton } from '../../../components/buttons/buttons';
 
 export default function StartProject() {
     return (
-        <section className="py-4">
+        <section className="py-4 my-5">
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center py-3">
-                        <h1>Let's Start A Project</h1>
+                <div className="row py-3">
+                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center heading">
+                        <h1 className="m-0 pb-0">Let's Start A Project</h1>
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div>
+                        <div className="mx-5 formStyle py-3">
                             <form className="d-flex flex-column">
-
                                 <label for="name" className="mb-0 mt-2">Name</label>
                                 <input type="name" name="" id="" />
 
@@ -35,12 +36,14 @@ export default function StartProject() {
                                 </select>
                                 
                                 <label for="name" className="mb-0 mt-2">What is your budget?</label>
-                                <select name="" id="">
+                                <select name="" id="" className="mb-4">
                                     <option value="" defaultValue>Choose</option>
-                                    <option value="" >R5 000 - R7 000</option>
-                                    <option value="" >R7 000 - R15 000</option>
+                                    <option value="" >R7 000 - R10 000</option>
+                                    <option value="" >R10 000 - R15 000</option>
                                     <option value="" >More than R15 000</option>
                                 </select>
+
+                                <FormSubmitButton />
                             </form>
                         </div>
                     </div>
@@ -48,11 +51,11 @@ export default function StartProject() {
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 d-flex justify-content-center align-items-center">
+                                <div className="col-12 d-flex justify-content-center align-items-center contactMethods">
                                     <ul>
-                                        <li>067 815 1282</li>
-                                        <li>brad@bradleymubenga.co.za</li>
-                                        <li>Cape Town, South Africa</li>
+                                        <li><a href="tel:0678151282">067 815 1282</a></li>
+                                        <li><a href="mailto:brad@bradleymubenga.co.za">brad@bradleymubenga.co.za</a></li>
+                                        <li><a>Cape Town, South Africa</a></li>
                                     </ul>
                                 </div>
                             </div>

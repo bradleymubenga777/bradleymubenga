@@ -1,0 +1,45 @@
+@use './branding.scss' as brand;
+
+.heading{
+    h1{
+        font-weight: brand.$semi-bold;
+    }
+}
+
+.formStyle{
+    *:focus{
+        outline: none;
+    }
+    form{
+        input{
+            font-family: inherit;
+            border: 5px brand.$violet solid;
+        }
+
+        input:focus{
+            border-radius: unset;
+        }
+
+        select{
+            border: 5px brand.$violet solid;
+            background-color: brand.$purple-haze;
+        }
+    }
+}
+
+.contactMethods{
+    ul{
+        li{
+            list-style-type: none;
+
+            a{
+                color: black;
+                text-decoration: underline;
+            }
+
+            a:hover{
+                color: brand.$ebony;
+            }
+        }
+    }
+}

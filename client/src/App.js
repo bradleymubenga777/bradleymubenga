@@ -8,6 +8,8 @@ import './scss/branding.scss';
 //Components
 import NavBar from './components/navigation/navbar';
 import HomePage from './components/pages/home';
+import ContactForm from './components/component/contact/startProject';
+import Footer from './components/component/contact/Footer';
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/contact" component={ContactForm} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

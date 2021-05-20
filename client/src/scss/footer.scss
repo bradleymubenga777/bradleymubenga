@@ -1,0 +1,11 @@
+@use '../scss/branding.scss' as brand;
+
+.footer{
+    background-color: brand.$violet;
+    
+    div{
+        p{
+            color: white;
+        }
+    }
+}
