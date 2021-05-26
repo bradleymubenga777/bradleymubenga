@@ -55,7 +55,7 @@ export default function StartProject() {
                                     <ul>
                                         <li className="lead"><a href="tel:0678151282"><i class="fas fa-phone"></i> 067 815 1282</a></li>
                                         <li className="my-2 lead"><a href="mailto:brad@bradleymubenga.co.za"><i class="fas fa-envelope-open-text"></i>     brad@bradleymubenga.co.za</a></li>
-                                        <li className="lead"><a><i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</a></li>
+                                        <li className="lead"><a href="/"><i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -17,7 +17,7 @@ export default function strategySection() {
         <section className="container d-flex justify-content-center py-5">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
-                <img src={bradleyMubengaImage} className="img-fluid" width="450px"/> 
+                <img alt="bradley mubenga" src={bradleyMubengaImage} className="img-fluid" width="450px"/> 
                 </div>
 
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center strategyContent">
@@ -27,9 +27,9 @@ export default function strategySection() {
                     <p className="lead">Want to learn more about me? Check out the <NavLink className="underlinedLink" to="/about">about page</NavLink> for all the fun facts {'&'} tech stuff. For my work checkout the <NavLink className="underlinedLink" to="/portfolio">portfolio</NavLink>.</p>
 
                     <div className="d-flex justify-space-between socialIcons">
-                        <a href="https://github.com/bradleymubenga777" target="blank"><img src={githubIcon} width="25px"/></a>
-                        <a href="https://facebook.com/bradleymubenga1" target="blank"><img src={facebookIcon} width="25px" className="mx-3"/></a>
-                        <a href="https://linkedin.com/in/bradley-mubenga" target="blank"><img src={linkedInIcon} width="25px" /></a>
+                        <a href="https://github.com/bradleymubenga777" target="blank"><img alt="" src={githubIcon} width="25px"/></a>
+                        <a href="https://facebook.com/bradleymubenga1" target="blank"><img alt="" src={facebookIcon} width="25px" className="mx-3"/></a>
+                        <a href="https://linkedin.com/in/bradley-mubenga" target="blank"><img alt="" src={linkedInIcon} width="25px"/></a>
                     </div>
                 </div>
             </div>

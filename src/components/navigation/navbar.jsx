@@ -15,7 +15,7 @@ import '../../scss/navbar.scss';
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg fixed-top navClass">
-        <a className="navbar-brand ml-5" href="/"><img src={logo} className="img-fluid" width="150"/></a>
+        <a className="navbar-brand ml-5" href="/"><img alt="bradley mubenga logo" src={logo} className="img-fluid" width="150"/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>

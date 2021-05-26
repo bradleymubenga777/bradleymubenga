@@ -20,16 +20,16 @@ export default function needProof() {
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <img src={showCaseImage} className="img-fluid" width="700px"/>
+                        <img alt="space events website showcase" src={showCaseImage} className="img-fluid" width="700px"/>
                     </div>
                     
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center ">
                         <div className="d-flex flex-column mx-3">
-                            <img className="align-self-start pb-2" src={quoteMark} width="44px"/>
+                            <img alt="quote mark png" className="align-self-start pb-2" src={quoteMark} width="44px"/>
                             <p className="lead testimonialText">Working with Bradley is amazing! He understands my business, what my clients want and he provides great results.</p>
 
                             <div className="d-flex align-items-center">
-                                <img className="img-fluid roundImg" src={joshImage} width="100px" />
+                                <img alt="Josh Cooke" className="img-fluid roundImg" src={joshImage} width="100px" />
                                 <ul className="clientDetails">
                                     <li><strong>Josh Cooke</strong></li>
                                     <li>Executive - SPACE_ Events Venue</li>
