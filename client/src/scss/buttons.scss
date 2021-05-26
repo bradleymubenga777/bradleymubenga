@@ -1,0 +1,49 @@
+//Branding Style Sheet
+@use "../scss/branding" as brand;
+
+//Fill Button
+.fillBtn{
+    background-color: brand.$violet;
+    padding: 0.77em;
+    border: none;
+    font-weight: brand.$extra-bold;
+    text-decoration: none;
+}
+
+.fillBtn:hover{
+    background-color: brand.$purple;
+    text-decoration: none;
+    color: white;
+}
+
+//White Button
+.whiteBtn{
+    background-color: white;
+    padding: 0.77em;
+    border: none;
+    color: black;
+    font-weight: brand.$extra-bold;
+    text-decoration: none;
+}
+
+.whiteBtn:hover{
+    background-color: brand.$purple-haze;
+    text-decoration: none;
+    color: black;
+}
+
+//Black Button
+.blackBtn{
+    background-color: black;
+    padding: 0.77em;
+    border: none;
+    color: white;
+    font-weight: brand.$extra-bold;
+    text-decoration: none;
+}
+
+.blackBtn:hover{
+    background-color: brand.$purple;
+    text-decoration: none;
+    color: white;
+}

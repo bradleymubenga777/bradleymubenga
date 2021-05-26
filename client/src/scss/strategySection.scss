@@ -1,0 +1,27 @@
+@use './branding.scss' as brand;
+
+.strategyContent{
+    h1{
+        font-weight: brand.$bold;
+    }
+
+    p{
+        .underlinedLink{
+            color: brand.$violet;
+            text-decoration: underline;
+            font-weight: brand.$semi-bold;
+        }
+
+        .underlinedLink:hover{
+            color: brand.$purple;
+        }
+    }
+
+    .socialIcons{
+        a{
+            img:hover{
+                opacity: 0.777;
+            }
+        }
+    }
+}

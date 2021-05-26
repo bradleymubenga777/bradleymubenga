@@ -1,0 +1,34 @@
+@use './branding.scss' as brand;
+
+.needProofSection{
+    background-color: brand.$ebony;
+    color: white;
+
+    .roundImg{
+        border-radius: 50%;
+    }
+
+    .clientDetails{
+        list-style-type: none;
+        li{
+            a{
+                color: white;
+                text-decoration: underline;
+            }
+
+            a:hover{
+                color: brand.$purple-haze;
+            }
+        }
+    }
+
+    .headerText{
+        h1{
+            font-weight: brand.$bold;
+        }
+    }
+
+    .testimonialText{
+        font-style: italic;
+    }
+}

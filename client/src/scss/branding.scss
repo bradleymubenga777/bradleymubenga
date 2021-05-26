@@ -1,0 +1,26 @@
+//init
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+//Brand Colours
+$ebony: #281C2D;
+$violet: #8155BA;
+$purple: #695E93;
+$purple-haze: #BEAFC2;
+
+//Brand Font - Raleway
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+//Font Properties (Weight, Size, etc.)
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+
+
+//Setting Default Font As Raleway
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
