@@ -1,0 +1,11 @@
+@use './branding.scss' as brand;
+
+.portButton{
+    a{
+        color: white;
+    }
+}
+
+.borderLeft{
+    border-left: 7px solid blue;
+}

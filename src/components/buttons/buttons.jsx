@@ -14,6 +14,14 @@ export class FillButton extends Component {
     }
 }
 
+export class PortfolioBtn extends Component {
+    render() {
+        return (
+            <NavLink className="fillBtn" to="/portfolio">Portfolio</NavLink>
+        )
+    }
+}
+
 export class WhiteBtn extends Component {
     render() {
         return (

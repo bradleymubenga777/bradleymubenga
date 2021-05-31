@@ -1,22 +1,59 @@
-import React from 'react'
+//REACT Modules
+import React from 'react';
+
+//Assets
+
+//SCSS
+import '../../../scss/workExperience.scss';
+
 
 export default function WorkExperience() {
     return (
         <section className="container py-3">
             <h1 className="text-center">Work Experience</h1>
 
-            <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="row py-4">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
                     <h2>SPACE EVENTS VENUE</h2>
                     <h4>Font-end Developer</h4>
                     <p>2021 - Present</p>
-                    <a href="https://spaceevents.co.za" target="_blank">www.spaceevents.co.za</a>
+                    <a href="https://spaceevents.co.za" rel="noreferrer" target="_blank">www.spaceevents.co.za</a>
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <p>I help manage Space's WordPress site by consistently updating it's content and design to make sure clients have the best experience possible.</p>
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 borderLeft">
+                    <p>I help manage SPACE_'s WordPress site by consistently updating it's content and design to make sure clients have the best experience possible.</p>
 
-                    <p>Volunteering at Space has given me the opportunity to be exposed to WordPress development and allowed me to use my coding skills to customise the website.</p>
+                    <p>I was exposed to WordPress development and I gained the knowledge and experience needed to customise and enhance a Wordpress website.</p>
+                </div>
+            </div>
+
+            <div className="row py-4">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
+                    <h2>INDLELA MEDIA (startup)</h2>
+                    <h4>Full-stack Web Developer</h4>
+                    <p>2020 - Present</p>
+                    <a href="https://indlelamedia.com" rel="noreferrer" target="_blank">www.indlelamedia.com</a>
+                </div>
+
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 borderLeft">
+                    <p>With a team of developers we created a web application that helps NPO's to find sponsors who are willing to help them achieve their goals.</p>
+
+                    <p>Working at Indlela Media is a privilage as I have learned how to communicate effectively with developers in our team and work within deadlines.</p>
+                </div>
+            </div>
+
+            <div className="row py-4">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
+                    <h2>SELF-EMPLOYED</h2>
+                    <h4>Freelance Web-Developer {'&'} Strategist</h4>
+                    <p>2021 - Present</p>
+                    <a href="https://bradleymubenga.co.za" rel="noreferrer" target="_blank">www.bradleymubenga.co.za</a>
+                </div>
+
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 borderLeft">
+                    <p>Ensuring that entreprenurs experience growth in their business whilst giving them more time to work on what they love doing.</p>
+
+                    <p>My experience as a freelance web developer has taught me how to think strategically about my client's users and how to give them the best experience possible.</p>
                 </div>
             </div>
         </section>
