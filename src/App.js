@@ -8,7 +8,7 @@ import './scss/branding.scss';
 //Components
 import NavBar from './components/navigation/navbar';
 import HomePage from './components/pages/home';
-import AboutPage from './components/component/about/heroSection';
+import AboutPage from './components/pages/about';
 import ContactForm from './components/component/contact/startProject';
 import Footer from './components/component/contact/Footer';
 

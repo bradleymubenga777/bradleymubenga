@@ -19,23 +19,23 @@ export default function StartProject() {
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div className="mx-5 formStyle py-3">
                             <form className="d-flex flex-column">
-                                <label for="name" className="mb-0 mt-2">Name</label>
+                                <label className="mb-0 mt-2">Name</label>
                                 <input type="name" name="" id="" />
 
-                                <label for="name" className="mb-0 mt-2">Email</label>
+                                <label className="mb-0 mt-2">Email</label>
                                 <input type="email" name="" id="" />
 
-                                <label for="name" className="mb-0 mt-2">Phone number</label>
+                                <label className="mb-0 mt-2">Phone number</label>
                                 <input type="tel" name="" id="" />
 
-                                <label for="name" className="mb-0 mt-2">How can I help you?</label>
+                                <label className="mb-0 mt-2">How can I help you?</label>
                                 <select name="" id="">
                                     <option value="" defaultValue>Choose</option>
                                     <option value="" >Choose</option>
                                     <option value="" >Choose</option>
                                 </select>
                                 
-                                <label for="name" className="mb-0 mt-2">What is your budget?</label>
+                                <label className="mb-0 mt-2">What is your budget?</label>
                                 <select name="" id="" className="mb-4">
                                     <option value="" defaultValue>Choose</option>
                                     <option value="" >R7 000 - R10 000</option>
@@ -53,9 +53,9 @@ export default function StartProject() {
                             <div className="row">
                                 <div className="col-12 d-flex justify-content-center align-items-center contactMethods">
                                     <ul>
-                                        <li className="lead"><a href="tel:0678151282"><i class="fas fa-phone"></i> 067 815 1282</a></li>
-                                        <li className="my-2 lead"><a href="mailto:brad@bradleymubenga.co.za"><i class="fas fa-envelope-open-text"></i>     brad@bradleymubenga.co.za</a></li>
-                                        <li className="lead"><a href="/"><i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</a></li>
+                                        <li className="lead"><a href="tel:0678151282"><i className="fas fa-phone"></i> 067 815 1282</a></li>
+                                        <li className="my-2 lead"><a href="mailto:brad@bradleymubenga.co.za"><i className="fas fa-envelope-open-text"></i>     brad@bradleymubenga.co.za</a></li>
+                                        <li className="lead"><a href="/"><i className="fas fa-map-marker-alt"></i> Cape Town, South Africa</a></li>
                                     </ul>
                                 </div>
                             </div>
