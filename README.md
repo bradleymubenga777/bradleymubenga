@@ -10,4 +10,4 @@ This web app was build using REACT.js & SCSS (SASS).
 Follow the following steps to work on this project locally.
 
 - Fork and clone repository
-- Run the command **npm install && npm start**
+- Run the command ``npm install && npm start``
