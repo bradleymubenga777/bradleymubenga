@@ -1,0 +1,6 @@
+@use '../scss/branding.scss' as brand;
+
+.portfolioCTA{
+    background-color: brand.$ebony;
+    color: white;
+}

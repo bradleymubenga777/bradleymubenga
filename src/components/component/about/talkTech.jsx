@@ -1,3 +1,4 @@
+//REACT Modules
 import React from 'react'
 
 //Assets
@@ -7,12 +8,15 @@ import ReactLogo from '../../../assets/images/React-icon.svg.png';
 import NodeJS from '../../../assets/images/nodejs-logo.png';
 import GraphQL from '../../../assets/images/graphql-logo.png';
 
+//SCSS
+import '../../../scss/talkTech.scss';
+
 export default function TalkTech() {
     return (
-        <section className="py-3">
+        <section className="py-5 talkTech">
             <div className="container text-center">
                 <h1>Let's Talk Tech</h1>
-                <p className="lead">I specilize in the MERN Stack, this consists of MongoDB, MySQL, Express, React and Node.js. I believe that having interpersonal skills is important, so I do my best to communicate effectively, stategise and learn in every situation I find myself in.</p>
+                <p className="lead">I specilize in the MERNG Stack, this consists of <span className="boldThing">MongoDB, MySQL, Express, React, Node.js, GraphQL</span> {'&'} Apollo. I believe that having <span className="boldThing">interpersonal skills</span> is important, so I do my best to <span className="boldThing">communicate effectively, stategise and learn</span> in every situation I find myself in.</p>
 
                 <div className="d-flex justify-content-center">
                     <img className="img-fluid px-2" width="50px" alt="MongoDB" src={MongoDB} />
