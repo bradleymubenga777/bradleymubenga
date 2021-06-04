@@ -41,10 +41,14 @@ export class BlackBtn extends Component {
 export class FormSubmitButton extends Component {
     render() {
         return (
-            //****Use NavLink From React Router DOM Here Instead.
             <button className="fillBtn">Get Started</button>
         )
     }
 }
 
+export function ReadMore({link}) {
+    return (
+    <NavLink className="fillBtn" to={link}>Start A Project</NavLink>
+    )
+}
 

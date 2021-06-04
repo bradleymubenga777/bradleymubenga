@@ -7,7 +7,6 @@ import githubIcon from '../../../assets/svg/github.svg';
 //SCSS
 import '../../../scss/workExperience.scss';
 
-
 export default function WorkExperience() {
     return (
         <section className="container py-5">
@@ -51,7 +50,7 @@ export default function WorkExperience() {
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock">
                     <h2>SELF-EMPLOYED</h2>
                     <h4>Freelance Web-Developer {'&'} Strategist</h4>
-                    <p>2021 - Present</p>
+                    <p>Jan 2020 - Present</p>
                     <a className="linkColor" href="https://bradleymubenga.co.za" rel="noreferrer" target="_blank">www.bradleymubenga.co.za</a>
 
                     <div className="d-flex justify-space-between pt-2">
