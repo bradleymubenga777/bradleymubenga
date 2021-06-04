@@ -12,7 +12,7 @@ import HeroSection from '../../../components/component/portfolio/heroSection';
 
 export default function Main() {
     return (
-        <main>
+        <main className="">
             <HeroSection />
             <SpaceCard />
         </main>

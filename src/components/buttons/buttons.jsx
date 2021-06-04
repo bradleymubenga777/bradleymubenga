@@ -48,7 +48,7 @@ export class FormSubmitButton extends Component {
 
 export function ReadMore({link}) {
     return (
-    <NavLink className="fillBtn" to={link}>Start A Project</NavLink>
+    <NavLink className="fillBtn" to={link}>Read More</NavLink>
     )
 }
 

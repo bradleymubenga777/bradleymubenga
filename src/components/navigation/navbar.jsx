@@ -32,9 +32,6 @@ export default function Navbar() {
                     <NavLink className="nav-link p-0" exact to="/portfolio" activeClassName="activeLink">Portfolio</NavLink>
                 </li>
                 <li className="nav-item mr-5">
-                    <NavLink className="nav-link p-0" exact to="/blog" activeClassName="activeLink">Blog</NavLink>
-                </li>
-                <li className="nav-item mr-5">
                     <FillButton />
                 </li>
             </ul>

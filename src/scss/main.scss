@@ -1,1 +1,19 @@
 @use './branding.scss' as brand;
+
+.spaceCard{
+    background-color: brand.$purple-haze;
+
+    div{
+        h2{
+            font-weight: brand.$bold;
+        }
+
+        p{
+            font-weight: brand.$semi-bold;
+        }
+    }
+
+    a{
+        color: white;
+    }
+}
