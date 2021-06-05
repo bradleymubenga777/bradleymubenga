@@ -20,7 +20,7 @@ export default function strategySection() {
                 <img alt="bradley mubenga" src={bradleyMubengaImage} className="img-fluid" width="450px"/> 
                 </div>
 
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center strategyContent">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center strategyContent pt-3">
                     <h1>Strategy {'>'} Design</h1>
                     <p className="lead">Bradley ensures your website brings growth to your business by using a strategy that will set you apart from your competition.</p>
 

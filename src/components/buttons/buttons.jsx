@@ -9,7 +9,7 @@ import '../../scss/buttons.scss';
 export class FillButton extends Component {
     render() {
         return (
-            <NavLink className="fillBtn" to="/contact">Start A Project</NavLink>
+            <NavLink className="fillBtn" to="/contact" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Start A Project</NavLink>
         )
     }
 }

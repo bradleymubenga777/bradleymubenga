@@ -23,7 +23,7 @@ export default function needProof() {
                         <img alt="space events website showcase" src={showCaseImage} className="img-fluid" width="700px"/>
                     </div>
                     
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center ">
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center pt-3">
                         <div className="d-flex flex-column mx-3">
                             <img alt="quote mark png" className="align-self-start pb-2" src={quoteMark} width="44px"/>
                             <p className="lead testimonialText">Working with Bradley is amazing! He understands my business, what my clients want and he provides great results.</p>

@@ -9,10 +9,10 @@ import { FormSubmitButton } from '../../../components/buttons/buttons';
 
 export default function StartProject() {
     return (
-        <section className="py-4 my-5">
+        <section className="py-4 my-3">
             <div className="container">
                 <div className="row py-3">
-                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center heading">
+                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center heading text-center">
                         <h1 className="m-0 pb-0">Let's Start A Project</h1>
                     </div>
 

@@ -1,6 +1,10 @@
 //React Modules
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+//JavaScript Modules
+import '../node_modules/jquery/dist/jquery';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+
 //SCSS
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './scss/branding.scss';
@@ -13,6 +17,8 @@ import Portfolio from './components/pages/portfolio';
 import ContactForm from './components/component/contact/startProject';
 import Footer from './components/component/contact/Footer';
 
+import SpaceCS from './components/component/portfolio/spaceCaseStudy';
+
 
 function App() {
   return (
@@ -24,6 +30,7 @@ function App() {
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={ContactForm} />
+          <Route exact path="/spaceCaseStudy" component={SpaceCS} />
         </Switch>
         <Footer />
       </Router>
