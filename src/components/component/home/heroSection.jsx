@@ -12,7 +12,7 @@ import { WhiteBtn, BlackBtn } from '../../buttons/buttons';
 
 export default function HeroSection() {
     return (
-    <section className="jumbotron jumbotron-fluid heroSection d-flex flex-column justify-content-center align-items-center">
+    <section className="jumbotron jumbotron-fluid heroSection d-flex flex-column justify-content-center align-items-center flex-wrap">
         <div className="text-center container heroText">
             <h1 className="display-4">Professional Web Design for Busy Entrepreneurs</h1>
 

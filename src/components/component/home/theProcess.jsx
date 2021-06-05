@@ -10,7 +10,7 @@ import trophy from '../../../assets/images/trophy.png';
 
 export default function TheProcess() {
     return (
-        <section className="py-5">
+        <section className="pb-5 pt-3">
             <div className="mx-5 text-center">
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">

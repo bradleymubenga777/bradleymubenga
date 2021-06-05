@@ -7,5 +7,27 @@
 }
 
 .borderLeft{
-    border-left: 7px solid blue;
+    border-left: 7px solid brand.$violet;
+}
+
+a.linkColor{
+    color: brand.$violet;
+    text-decoration: underline;
+}
+
+a.linkColor:hover{
+    color: brand.$ebony;
+    text-decoration: underline;
+}
+
+section{
+    h1{
+        font-weight: brand.$bold;
+    }
+
+    .jobBlock{
+        h2{
+            font-weight: brand.$semi-bold;
+        }
+    }
 }

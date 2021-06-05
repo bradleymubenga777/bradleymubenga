@@ -1,0 +1,7 @@
+@use './branding.scss' as brand;
+
+.container{
+    h1{
+        font-weight: brand.$bold;
+    }
+}

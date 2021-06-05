@@ -1,0 +1,17 @@
+@use '../scss/branding.scss' as brand;
+
+.talkTech{
+    background-color: brand.$ebony;
+    color: white;
+
+    div{
+        h1{
+            font-weight: brand.$bold;
+        }
+    }
+}
+
+.boldThing{
+    font-weight: brand.$semi-bold;
+}
+
