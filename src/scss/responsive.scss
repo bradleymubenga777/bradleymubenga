@@ -1,0 +1,71 @@
+html{
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575px) {
+    *a{
+        font-size: 4vw !important;
+    }
+    
+    h1{
+        font-size: 10vw !important;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    *a{
+        font-size: 3vw !important;
+    }
+    
+    h1{
+        font-size: 7vw !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    *a{
+        font-size: 2.5vw !important;
+    }
+    
+    h1{
+        font-size: 5.5vw !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    *a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 4vw !important;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    *a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 4vw !important;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    *a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 4vw !important;
+    }
+}

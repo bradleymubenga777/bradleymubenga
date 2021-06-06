@@ -8,6 +8,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 //SCSS
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './scss/branding.scss';
+import './scss/responsive.scss';
 
 //Components
 import NavBar from './components/navigation/navbar';
