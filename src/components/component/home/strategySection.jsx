@@ -15,9 +15,9 @@ import { NavLink } from 'react-router-dom';
 export default function strategySection() {
     return (
         <section className="container d-flex justify-content-center py-5">
-            <div className="row">
+            <div className="row py-3">
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
-                <img alt="bradley mubenga" src={bradleyMubengaImage} className="img-fluid" width="450px"/> 
+                <img alt="bradley mubenga" src={bradleyMubengaImage}/> 
                 </div>
 
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center strategyContent pt-3">
@@ -27,9 +27,9 @@ export default function strategySection() {
                     <p className="lead">Want to learn more about me? Check out the <NavLink className="underlinedLink" to="/about">about page</NavLink> for all the fun facts {'&'} tech stuff. For my work checkout the <NavLink className="underlinedLink" to="/portfolio">portfolio</NavLink>.</p>
 
                     <div className="d-flex justify-space-between socialIcons">
-                        <a href="https://github.com/bradleymubenga777" target="blank"><img alt="" src={githubIcon} width="25px"/></a>
-                        <a href="https://facebook.com/bradleymubenga1" target="blank"><img alt="" src={facebookIcon} width="25px" className="mx-3"/></a>
-                        <a href="https://linkedin.com/in/bradley-mubenga" target="blank"><img alt="" src={linkedInIcon} width="25px"/></a>
+                        <a href="https://github.com/bradleymubenga777" target="blank"><img alt="github icon" src={githubIcon} width="25px"/></a>
+                        <a href="https://facebook.com/bradleymubenga1" target="blank"><img alt="facebook icon" src={facebookIcon} width="25px" className="mx-3"/></a>
+                        <a href="https://linkedin.com/in/bradley-mubenga" target="blank"><img alt="linkedIn icon" src={linkedInIcon} width="25px"/></a>
                     </div>
                 </div>
             </div>

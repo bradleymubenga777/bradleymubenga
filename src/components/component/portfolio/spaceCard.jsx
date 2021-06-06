@@ -11,8 +11,8 @@ export default function SpaceCard() {
         <div className="container">
             <div className="spaceCard p-5 my-5">
                 <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
-                        <img className="img-fluid" width="350px" src={spaceWebsiteImage} alt="space events venue website by bradley mubenga" />
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center pb-3">
+                        <img width="350px" src={spaceWebsiteImage} alt="space events venue website by bradley mubenga" />
                     </div>
  
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center">
