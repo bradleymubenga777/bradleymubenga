@@ -13,7 +13,7 @@ export default function WorkExperience() {
             <h1 className="text-center">Work Experience</h1>
 
             <div className="row py-4">
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock pb-3">
                     <h2>SPACE EVENTS VENUE</h2>
                     <h4>Font-end Developer</h4>
                     <p>May 2021 - Present</p>
@@ -28,7 +28,7 @@ export default function WorkExperience() {
             </div>
 
             <div className="row py-4">
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock pb-3">
                     <h2>INDLELA MEDIA (startup)</h2>
                     <h4>Full-stack Web Developer</h4>
                     <p>Jan 2020 - Apr 2021</p>
@@ -47,7 +47,7 @@ export default function WorkExperience() {
             </div>
 
             <div className="row py-4">
-                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock">
+                <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center jobBlock pb-3">
                     <h2>SELF-EMPLOYED</h2>
                     <h4>Freelance Web-Developer {'&'} Strategist</h4>
                     <p>Jan 2020 - Present</p>

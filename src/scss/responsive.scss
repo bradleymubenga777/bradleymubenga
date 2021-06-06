@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+}
+
+img{
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+//Router Animation
+.fade-appear, fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear-active, fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575px) {
+    a{
+        font-size: 4vw !important;
+    }
+    
+    h1{
+        font-size: 8.5vw !important;
+    }
+
+    h2{
+        font-size: 7vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 5.35vw !important;
+    }
+
+    p{
+        font-size: 5.35vw !important;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    a{
+        font-size: 3vw !important;
+    }
+    
+    h1{
+        font-size: 6.5vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 4vw !important;
+    }
+
+    p{
+        font-size: 4vw !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    a{
+        font-size: 2.5vw !important;
+    }
+    
+    h1{
+        font-size: 5.5vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 3vw !important;
+    }
+
+    p{
+        font-size: 3vw !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 3.5vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 2vw !important;
+    }
+
+    p{
+        font-size: 2vw !important;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 4vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 1.7vw !important;
+    }
+
+    p{
+        font-size: 1.7vw !important;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    a{
+        font-size: 1.25vw !important;
+    }
+    
+    h1{
+        font-size: 4vw !important;
+    }
+
+    .underlinedLink{
+        font-size: 2vw !important;
+    }
+
+    p{
+        font-size: 2vw !important;
+    }
+}

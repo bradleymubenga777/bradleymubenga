@@ -18,7 +18,7 @@ export default function SpaceCaseStudy() {
                 <p className="lead">An elegant website to complement a venue with beautiful architecture.</p>
 
                 <div>
-                    <img src={spaceEventsWebsite} className="img-fluid" alt="space-events-venue-website" />
+                    <img src={spaceEventsWebsite} alt="space-events-venue-website" />
 
                     <div className="pt-3">
                         <p className="lead">Space Events Venue is a beautiful an elagant venue for any formal or casual event, however prior to improving their website it did not reflect much of what the venue could offer to prospective clients.</p>
@@ -32,7 +32,7 @@ export default function SpaceCaseStudy() {
                 <h1>Before</h1>
 
                 <div>
-                    <img src={spaceEventsOldWebsite} className="img-fluid" alt="space-events-venue-website" />
+                    <img src={spaceEventsOldWebsite} alt="space-events-venue-website" />
 
                     <div className="pt-3">
                         <p className="lead">After a brief discussion with the lead web designer and the man in charge of the venue, I was given the go ahead to make these changes. I was very glad since this meant that the venue would see more client come in because of this.</p>
@@ -48,10 +48,10 @@ export default function SpaceCaseStudy() {
                 <div>
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <img src={spaceEventsWebsite} className="img-fluid" alt="space-events-venue-website" />
+                            <img src={spaceEventsWebsite} alt="space-events-venue-website" />
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <img src={spaceEventsMobileWebsite} className="img-fluid" alt="space-events-venue-website" />
+                            <img src={spaceEventsMobileWebsite} alt="space-events-venue-website" />
                         </div>
                     </div>
 

@@ -4,8 +4,16 @@
     background-color: brand.$violet;
     
     div{
-        p{
-            color: white;
-        }
+        ul li {
+            list-style-type: none;
+
+            a {
+                color: white;
+            }
+
+            a:hover{
+                color: brand.$purple-haze;
+            }
+        } 
     }
 }

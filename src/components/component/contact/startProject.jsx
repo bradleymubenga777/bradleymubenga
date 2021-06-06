@@ -9,8 +9,8 @@ import { FormSubmitButton } from '../../../components/buttons/buttons';
 
 export default function StartProject() {
     return (
-        <section className="py-4 my-3">
-            <div className="container">
+        <section className="pt-5">
+            <div className="container pt-5 ">
                 <div className="row py-3">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center heading text-center">
                         <h1 className="m-0 pb-0">Let's Start A Project</h1>
@@ -30,9 +30,10 @@ export default function StartProject() {
 
                                 <label className="mb-0 mt-2">How can I help you?</label>
                                 <select name="" id="">
-                                    <option value="" defaultValue>Choose</option>
-                                    <option value="" >Choose</option>
-                                    <option value="" >Choose</option>
+                                <option value="" defaultValue>Choose</option>
+                                    <option value="Web Design/Development">Web Design/Development {'&'} Strategy</option>
+                                    <option value="Content Creation" >Content Creation</option>
+                                    <option value="Social Media Advertising" >Social Media Advertising</option>
                                 </select>
                                 
                                 <label className="mb-0 mt-2">What is your budget?</label>
