@@ -30,7 +30,8 @@ export default function StartProject() {
 
                                 <label className="mb-0 mt-2">How can I help you?</label>
                                 <select name="" id="">
-                                    <option value="Web Design/Development" defaultValue>Web Design/Development {'&'} Strategy</option>
+                                <option value="" defaultValue>Choose</option>
+                                    <option value="Web Design/Development">Web Design/Development {'&'} Strategy</option>
                                     <option value="Content Creation" >Content Creation</option>
                                     <option value="Social Media Advertising" >Social Media Advertising</option>
                                 </select>
